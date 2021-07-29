@@ -66,7 +66,7 @@ function Home() {
             id="1272177"
             title="
             SAMSUNG 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED Computer Monitor, 3840 x 1080p Resolution, 1ms Response, FreeSync 2 with HDR"
-            price={49.99}
+            price={1049.99}
             image={productImg4}
             rating={4}
           />
