@@ -8,13 +8,14 @@ import Subtotal from './Subtotal';
 
 
 function Checkout() {
-  const [{basket}, dispatch] = useStateValue();
+  const [{basket, user}, dispatch] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout__left">
         <img src={checkoutAd} alt="" className="checkout__ad" />
 
         <div>
+          <h3>Hello, {user ? (user.email.split("@")[0]) && (user.email.split(".")[0])  : "Guest"}</h3>
           <h2 className="checkout__title">Your Shopping Basket</h2>
           {/* Checkout Product */}
           {basket.map(item => (
