@@ -8,4 +8,4 @@
 ![Screen Shot](screenshots/cart.png?raw=true "ScreenShot (Cart)")
 
 - ScreenShot - (Sign In)
-![Screen Shot](screenshots/sign_in.jpg?raw=true "ScreenShot (Sign In)")
+![Screen Shot](screenshots/sign_in.png?raw=true "ScreenShot (Sign In)")
